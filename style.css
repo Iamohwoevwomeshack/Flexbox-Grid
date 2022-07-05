@@ -1,0 +1,141 @@
+*,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 25px;
+}
+
+.flexbox {
+    padding: 20px;
+    display: flex;
+}
+
+.icon {
+    padding-bottom: 45px;
+    width: 100px;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 70px;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 55px;
+}
+
+.text {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 100px;
+    line-height: 45px;
+}
+
+.btn-1 {
+    padding: 15px 30px;
+    background: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedans {
+    width: 480px;
+    height: 800px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 70px;
+    padding-top: 100px;
+    padding-left: 60px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.btn-2 {
+    padding: 15px 30px;
+    background: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.suvs {
+    width: 480px;
+    height: 800px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 70px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.btn-3 {
+    padding: 15px 30px;
+    background: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: sl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.luxury {
+    width: 480px;
+    height: 800px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 70px;
+    padding-top: 100px;
+    padding-left: 60px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.container {
+    width: 630px;
+    height: 430px;
+    background-color: rgb(63, 54, 54);
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 400px 200px;
+    gap: 5px 10px;
+    padding: 10px;
+}
+
+.box1 {
+    border: 2px solid orangered;
+    height: 200px;
+    background: orangered;
+}
+
+.box2 {
+    border: 2px solid orange;
+    height: 200px;
+    background: orange;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 250px 350px;
+    gap: 10px 10px;
+    padding-left: 10px;
+}
+
+.box3 {
+    border: 2px solid green;
+    height: 200px;
+    background: green;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.box4 {
+    border: 2px solid rgb(7, 213, 240);
+    height: 80px;
+    background: rgb(7, 213, 240);
+}
+
+.box5 {
+    border: 2px solid rgb(7, 213, 240);
+    height: 105px;
+    background: rgb(7, 213, 240);
+}
